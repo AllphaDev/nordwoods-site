@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <title>NordWoods — Премиальный домик в лесу • Бронирование онлайн</title>
+    <meta
+      name="description"
+      content="NordWoods — премиальный домик в лесу для перезагрузки: панорамные окна, камин, чан и баня. Прозрачные условия, отзывы гостей, бронирование онлайн за 2 минуты."
+    />
+    <meta name="robots" content="index,follow" />
+    <meta name="theme-color" content="#070a08" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="NordWoods" />
+    <meta property="og:title" content="NordWoods — Премиальный домик в лесу" />
+    <meta
+      property="og:description"
+      content="Камин, чан, баня, дизайн и сервис. Бронируйте даты онлайн за 2 минуты."
+    />
+    <meta
+      property="og:image"
+      content="https://images.unsplash.com/photo-1473773508845-188df298d2d1?auto=format&fit=crop&w=1600&q=80"
+    />
+    <meta property="og:locale" content="ru_RU" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="NordWoods — Премиальный домик в лесу" />
+    <meta
+      name="twitter:description"
+      content="Камин, чан, баня, дизайн и сервис. Бронируйте онлайн."
+    />
+    <meta
+      name="twitter:image"
+      content="https://images.unsplash.com/photo-1473773508845-188df298d2d1?auto=format&fit=crop&w=1600&q=80"
+    />
+
+    <!-- Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,600;9..144,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Structured data: LodgingBusiness -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LodgingBusiness",
+        "name": "NordWoods Cabin Retreat",
+        "description": "Премиальный домик в лесу: панорамные окна, камин, чан и баня. Бронирование онлайн.",
+        "image": [
+          "https://images.unsplash.com/photo-1473773508845-188df298d2d1?auto=format&fit=crop&w=1600&q=80"
+        ],
+        "priceRange": "€€€",
+        "telephone": "+373 000 000 000",
+        "email": "hello@nordwoods.example",
+        "url": "https://nordwoods.example",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "MD",
+          "addressLocality": "Кишинёв",
+          "streetAddress": "Лесная дорога, 12"
+        },
+        "amenityFeature": [
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "Камин",
+            "value": true
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "Чан",
+            "value": true
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "Баня",
+            "value": true
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "Wi-Fi 100+ Мбит",
+            "value": true
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "Парковка",
+            "value": true
+          }
+        ]
+      }
+    </script>
+
+    <!-- Structured data: FAQPage -->
+    <script type="application/ld+json" id="faqJsonLd">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Можно ли с животными?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Да, небольшие питомцы допускаются по предварительному согласованию. Пожалуйста, укажите это в заявке."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Есть ли Wi-Fi и подходит ли для работы?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Да. Стабильный интернет 100+ Мбит и удобное место для ноутбука. Для долгих заездов действует скидка Workation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Как работает предоплата и отмена?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Предоплата 30% подтверждает бронь. Бесплатная отмена — за 7 дней до заезда. Подробности — в разделе «Условия»."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Во сколько заезд и выезд?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Заезд с 15:00, выезд до 12:00. Ранний заезд/поздний выезд — по возможности."
+            }
+          }
+        ]
+      }
+    </script>
+  </head>
+
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <div class="cursor-glow" aria-hidden="true"></div>
+
+    <header class="header">
+      <div class="container header__inner">
+        <a class="brand" href="#top" id="top" aria-label="NordWoods">
+          <div class="brand__mark"><span>⛰️</span></div>
+          <div class="brand__text">
+            <div class="brand__title">NordWoods</div>
+            <div class="brand__sub">Cabin Retreat</div>
+          </div>
+        </a>
+
+        <nav class="nav" aria-label="Навигация">
+          <a href="#experience">Почему мы</a>
+          <a href="#gallery">Галерея</a>
+          <a href="#amenities">Удобства</a>
+          <a href="#pricing">Тарифы</a>
+          <a href="#reviews">Отзывы</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contacts">Контакты</a>
+        </nav>
+
+        <button class="btn btn--primary magnetic" id="scrollToBooking">
+          Забронировать <span class="arrow">→</span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section class="hero">
+        <div class="container hero__grid">
+          <div class="hero__left">
+            <div class="pill reveal">
+              <span>Сервис уровня отеля</span><span class="dot">•</span>
+              <b>домик в лесу</b><span class="dot">•</span>
+              <span>чан / камин / дизайн</span>
+            </div>
+
+            <h1 class="reveal">
+              Премиальный лесной ретрит<br />
+              <span class="grad-text">для перезагрузки.</span>
+            </h1>
+
+            <p class="hero__sub reveal">
+              Панорамные окна, тёплый свет, тишина без компромиссов. Снаружи —
+              лес и воздух. Внутри — современный интерьер, камин и идеальный
+              сон. Бронируйте даты онлайн: быстро, прозрачно, без сюрпризов.
+            </p>
+
+            <div class="hero__cta reveal">
+              <a class="btn btn--primary magnetic" href="#booking"
+                >Проверить даты</a
+              >
+              <a class="btn btn--ghost magnetic" href="#gallery"
+                >Смотреть галерею</a
+              >
+            </div>
+
+            <ul class="kpis reveal" aria-label="Преимущества">
+              <li><strong>4.9/5</strong><span>оценка гостей</span></li>
+              <li><strong>25 мин</strong><span>от города</span></li>
+              <li><strong>30%</strong><span>предоплата</span></li>
+            </ul>
+
+            <div class="trust reveal" aria-label="Доверие">
+              <div class="trust__item">
+                <b>Прозрачные условия</b
+                ><span>отмена / предоплата / правила</span>
+              </div>
+              <div class="trust__item">
+                <b>Поддержка 7/7</b
+                ><span>подтверждение и ответы в день заявки</span>
+              </div>
+              <div class="trust__item">
+                <b>Чистота и сервис</b><span>подготовка как в бутик-отеле</span>
+              </div>
+            </div>
+
+            <!-- NEW: left column filler (premium + useful) -->
+            <div class="heroHighlights reveal" aria-label="Ключевые детали">
+              <article class="hCard">
+                <div class="hTop">
+                  <div class="hIcon">✅</div>
+                  <div>
+                    <h3>Что включено</h3>
+                    <p>Без скрытых доплат. Всё базовое уже в цене.</p>
+                  </div>
+                </div>
+                <ul class="hList">
+                  <li>Камин + дрова/розжиг</li>
+                  <li>Кухня + посуда + чай/кофе</li>
+                  <li>Wi-Fi 100+ Мбит</li>
+                  <li>Парковка на территории</li>
+                </ul>
+              </article>
+
+              <article class="hCard">
+                <div class="hTop">
+                  <div class="hIcon">📍</div>
+                  <div>
+                    <h3>Локация</h3>
+                    <p>25 минут от города. Тихая зона и лес вокруг.</p>
+                  </div>
+                </div>
+
+                <div class="hPills">
+                  <span class="chip">Трекинг рядом</span>
+                  <span class="chip">Без соседей</span>
+                  <span class="chip">Звёздное небо</span>
+                </div>
+
+                <div class="hButtons">
+                  <a class="btn btn--ghost magnetic" href="#contacts"
+                    >Как добраться</a
+                  >
+                  <a class="btn btn--primary magnetic" href="#booking"
+                    >Проверить даты</a
+                  >
+                </div>
+              </article>
+            </div>
+            <!-- /NEW -->
+          </div>
+
+          <!-- HERO CARD -->
+          <aside class="heroCard reveal" aria-label="Карточка бронирования">
+            <div
+              class="heroCard__image"
+              id="heroParallax"
+              data-bg="assets/hero.jpg"
+              data-fallback="https://images.unsplash.com/photo-1473773508845-188df298d2d1?auto=format&fit=crop&w=2200&q=80"
+            >
+              <div class="heroCard__overlay">
+                <div class="chipRow">
+                  <div class="chip">🔥 Камин</div>
+                  <div class="chip">🛁 Чан</div>
+                  <div class="chip">🧖‍♂️ Баня</div>
+                  <div class="chip">📶 Wi-Fi</div>
+                </div>
+                <div class="rating">★ 4.9 <small>(312)</small></div>
+              </div>
+            </div>
+
+            <div class="panel" id="booking">
+              <div class="panel__top">
+                <div>
+                  <h3>Бронирование</h3>
+                  <p>
+                    Цена считается автоматически • Подтверждение в день заявки
+                  </p>
+                </div>
+                <div class="chip chip--price" title="Базовая цена">от 89€</div>
+              </div>
+
+              <form id="form" autocomplete="on">
+                <!-- honeypot -->
+                <input
+                  class="hp"
+                  type="text"
+                  id="company"
+                  name="company"
+                  tabindex="-1"
+                  autocomplete="off"
+                  aria-hidden="true"
+                />
+
+                <div class="grid2">
+                  <div class="field">
+                    <label for="in">Заезд</label>
+                    <input id="in" name="checkin" type="date" required />
+                  </div>
+                  <div class="field">
+                    <label for="out">Выезд</label>
+                    <input id="out" name="checkout" type="date" required />
+                  </div>
+                </div>
+
+                <div class="grid2 mt12">
+                  <div class="field">
+                    <label for="guests">Гостей</label>
+                    <select id="guests" name="guests">
+                      <option value="1">1</option>
+                      <option value="2" selected>2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                    </select>
+                  </div>
+
+                  <div class="field">
+                    <label for="stayType">Стиль заезда</label>
+                    <select id="stayType" name="style">
+                      <option value="standard" selected>Стандарт</option>
+                      <option value="romantic">Романтика</option>
+                      <option value="workation">Workation</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="toggles mt12">
+                  <div
+                    class="toggle"
+                    id="tub"
+                    data-on="0"
+                    role="switch"
+                    aria-checked="false"
+                    tabindex="0"
+                  >
+                    <div><b>Чан</b> <span>+25€ / ночь</span></div>
+                    <div class="switch" aria-hidden="true"></div>
+                  </div>
+
+                  <div
+                    class="toggle"
+                    id="sauna"
+                    data-on="0"
+                    role="switch"
+                    aria-checked="false"
+                    tabindex="0"
+                  >
+                    <div><b>Баня</b> <span>+20€ / ночь</span></div>
+                    <div class="switch" aria-hidden="true"></div>
+                  </div>
+                </div>
+
+                <div class="summary" aria-live="polite">
+                  <div class="row">
+                    <span>Ночей</span><strong id="nights">—</strong>
+                  </div>
+                  <div class="row">
+                    <span>Итого</span><strong id="total">—</strong>
+                  </div>
+                  <div class="row">
+                    <span>Предоплата 30%</span><strong id="prepay">—</strong>
+                  </div>
+                </div>
+
+                <div class="grid2 mt12">
+                  <div class="field">
+                    <label for="name">Имя</label>
+                    <input
+                      id="name"
+                      name="name"
+                      type="text"
+                      placeholder="Например, Анна"
+                      required
+                    />
+                  </div>
+                  <div class="field">
+                    <label for="phone">Телефон</label>
+                    <input
+                      id="phone"
+                      name="phone"
+                      type="tel"
+                      inputmode="tel"
+                      placeholder="+373 ..."
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div class="grid2 mt12">
+                  <div class="field">
+                    <label for="email">Email</label>
+                    <input
+                      id="email"
+                      name="email"
+                      type="email"
+                      placeholder="name@email.com"
+                      required
+                    />
+                  </div>
+                  <div class="field">
+                    <label for="time">Время прибытия</label>
+                    <select id="time" name="arrival_time">
+                      <option value="15-17" selected>15:00–17:00</option>
+                      <option value="17-19">17:00–19:00</option>
+                      <option value="19-21">19:00–21:00</option>
+                      <option value="flex">Гибко (уточню)</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="field mt12">
+                  <label for="note">Комментарий</label>
+                  <textarea
+                    id="note"
+                    name="note"
+                    rows="3"
+                    placeholder="Питомец, особые пожелания, повод заезда…"
+                  ></textarea>
+                </div>
+
+                <label class="check mt12">
+                  <input id="agree" type="checkbox" required />
+                  <span>
+                    Я согласен(на) с
+                    <a href="#terms" class="link">условиями проживания</a> и
+                    политикой отмены.
+                  </span>
+                </label>
+
+                <button
+                  class="btn btn--primary btn--full magnetic"
+                  type="submit"
+                >
+                  Отправить заявку на бронь
+                </button>
+
+                <p class="note">
+                  После отправки вы получите подтверждение и реквизиты
+                  предоплаты (30%). Обычно отвечаем в течение дня.
+                </p>
+              </form>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <!-- EXPERIENCE -->
+      <section class="section section--alt" id="experience">
+        <div class="container">
+          <div class="head">
+            <h2 class="reveal">Почему NordWoods выбирают снова</h2>
+            <p class="reveal">
+              Премиум — это не «дорого». Это когда продумана каждая деталь: сон,
+              свет, тишина, запах дерева, чистота, сценарии отдыха и понятные
+              правила.
+            </p>
+          </div>
+
+          <div class="cards">
+            <article class="card reveal">
+              <div class="icon">🛏️</div>
+              <h3>Сон и тишина</h3>
+              <p>
+                Плотные шторы, тёплый свет, комфортная кровать и тишина леса —
+                чтобы вы реально выспались.
+              </p>
+            </article>
+
+            <article class="card reveal">
+              <div class="icon">🔥</div>
+              <h3>Атмосфера</h3>
+              <p>
+                Камин, мягкий плед, чай и музыка. Идеально для пары или
+                спокойного отдыха наедине с собой.
+              </p>
+            </article>
+
+            <article class="card reveal">
+              <div class="icon">🧼</div>
+              <h3>Сервис</h3>
+              <p>
+                Подготовка дома и уборка как в бутик-отеле. Всё чисто, аккуратно
+                и без «усталой» мебели.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- GALLERY -->
+      <section class="section" id="gallery">
+        <div class="container">
+          <div class="head">
+            <h2 class="reveal">Галерея</h2>
+            <p class="reveal">
+              Фото можно хранить в <code>assets/</code>. Если файла нет —
+              подставится fallback, чтобы сайт всегда выглядел отлично.
+            </p>
+          </div>
+
+          <div class="gallery">
+            <div
+              class="shot reveal"
+              data-bg="assets/forest.jpg"
+              data-fallback="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=2200&q=80"
+            >
+              <div class="shot__label">
+                Лес вокруг <small>тишина и воздух</small>
+              </div>
+            </div>
+
+            <div
+              class="shot reveal"
+              data-bg="assets/interior.jpg"
+              data-fallback="https://images.unsplash.com/photo-1523413651479-597eb2da0ad6?auto=format&fit=crop&w=2200&q=80"
+            >
+              <div class="shot__label">
+                Интерьер <small>тепло и свет</small>
+              </div>
+            </div>
+
+            <div
+              class="shot reveal"
+              data-bg="assets/fireplace.jpg"
+              data-fallback="https://images.unsplash.com/photo-1505693314120-0d443867891c?auto=format&fit=crop&w=2200&q=80"
+            >
+              <div class="shot__label">Камин <small>вечера</small></div>
+            </div>
+
+            <div
+              class="shot reveal"
+              data-bg="assets/kitchen.jpg"
+              data-fallback="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=2200&q=80"
+            >
+              <div class="shot__label">Кухня <small>всё продумано</small></div>
+            </div>
+
+            <div
+              class="shot reveal"
+              data-bg="assets/terrace.jpg"
+              data-fallback="https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=2200&q=80"
+            >
+              <div class="shot__label">Терраса <small>вид и кофе</small></div>
+            </div>
+
+            <div
+              class="shot reveal"
+              data-bg="assets/retreat.jpg"
+              data-fallback="https://images.unsplash.com/photo-1473773508845-188df298d2d1?auto=format&fit=crop&w=2400&q=80"
+            >
+              <div class="shot__label">Ретрит <small>перезагрузка</small></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- AMENITIES -->
+      <section class="section section--alt" id="amenities">
+        <div class="container">
+          <div class="head">
+            <h2 class="reveal">Удобства</h2>
+            <p class="reveal">
+              Всё, что нужно для отдыха и работы. Никаких «докупите отдельно» —
+              базовый комфорт уже включён.
+            </p>
+          </div>
+
+          <div class="amenities">
+            <article class="card reveal">
+              <div class="icon">📶</div>
+              <h3>Wi-Fi 100+ Мбит</h3>
+              <p>Подходит для звонков, работы и стриминга без лагов.</p>
+            </article>
+
+            <article class="card reveal">
+              <div class="icon">🍳</div>
+              <h3>Полная кухня</h3>
+              <p>Посуда, плита, чай/кофе, базовые специи, холодильник.</p>
+            </article>
+
+            <article class="card reveal">
+              <div class="icon">🚗</div>
+              <h3>Парковка</h3>
+              <p>Бесплатная парковка на территории, удобный подъезд.</p>
+            </article>
+
+            <article class="card reveal">
+              <div class="icon">🪵</div>
+              <h3>Камин</h3>
+              <p>Дрова и розжиг на месте. Пожалуйста, соблюдайте правила.</p>
+            </article>
+
+            <article class="card reveal">
+              <div class="icon">🛁</div>
+              <h3>Чан</h3>
+              <p>Опция +25€ / ночь. Идеально вечером под звёздами.</p>
+            </article>
+
+            <article class="card reveal">
+              <div class="icon">🧖‍♂️</div>
+              <h3>Баня</h3>
+              <p>Опция +20€ / ночь. Тёплый пар — лучший антистресс.</p>
+            </article>
+          </div>
+
+          <div class="location reveal">
+            <div class="location__left">
+              <h3>Локация</h3>
+              <p>
+                Дом находится в лесной зоне: достаточно близко к городу, чтобы
+                доехать быстро, и достаточно далеко, чтобы выдохнуть.
+              </p>
+              <ul class="bullets">
+                <li>~25 минут на авто от города</li>
+                <li>Магазин — по дороге, 7–10 минут</li>
+                <li>Трекинг-маршруты и точки для пикника рядом</li>
+              </ul>
+              <a class="btn btn--ghost magnetic" href="#contacts"
+                >Как добраться</a
+              >
+            </div>
+            <div class="location__right">
+              <div class="mapCard">
+                <div class="mapCard__top">
+                  <b>NordWoods Cabin</b>
+                  <span class="muted">Лесная дорога, 12</span>
+                </div>
+                <div class="mapCard__body">
+                  <div class="mapPin">📍</div>
+                  <div class="mapText">
+                    <div>Координаты и точный маршрут</div>
+                    <small
+                      >мы отправим после подтверждения брони (для
+                      приватности)</small
+                    >
+                  </div>
+                </div>
+                <div class="mapCard__bottom">
+                  <span class="chip">Тихая зона</span>
+                  <span class="chip">Без соседей</span>
+                  <span class="chip">Звёздное небо</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PRICING -->
+      <section class="section" id="pricing">
+        <div class="container">
+          <div class="head">
+            <h2 class="reveal">Тарифы</h2>
+            <p class="reveal">
+              Три пакета — чтобы выбрать сценарий: тихий будний ретрит,
+              насыщенный уикенд или спокойная workation-неделя.
+            </p>
+          </div>
+
+          <div class="pricing">
+            <article class="plan reveal">
+              <h3>Weekday</h3>
+              <p class="price">89€ <span>/ ночь</span></p>
+              <ul class="list">
+                <li>2 гостя включено</li>
+                <li>Камин, кухня, терраса</li>
+                <li>Гибкий check-in по возможности</li>
+              </ul>
+              <a class="btn btn--ghost btn--full magnetic" href="#booking"
+                >Проверить даты</a
+              >
+            </article>
+
+            <article class="plan plan--hot reveal">
+              <div class="badge2">Top choice</div>
+              <h3>Weekend</h3>
+              <p class="price">129€ <span>/ ночь</span></p>
+              <ul class="list">
+                <li>До 4 гостей</li>
+                <li>Приоритет по времени заезда</li>
+                <li>Пакет “атмосфера” (чай/свечи)</li>
+              </ul>
+              <a class="btn btn--primary btn--full magnetic" href="#booking"
+                >Забронировать</a
+              >
+            </article>
+
+            <article class="plan reveal">
+              <h3>Workation</h3>
+              <p class="price">−15% <span>на неделю</span></p>
+              <ul class="list">
+                <li>Wi-Fi 100+ Мбит</li>
+                <li>Уборка 1 раз включена</li>
+                <li>Тихий режим и рабочий стол</li>
+              </ul>
+              <a class="btn btn--ghost btn--full magnetic" href="#booking"
+                >Рассчитать</a
+              >
+            </article>
+          </div>
+
+          <div class="fineLine reveal">
+            <p class="fine">
+              Итоговая цена в калькуляторе учитывает выбранные даты, гостей и
+              опции (чан/баня). Предоплата 30% подтверждает бронь.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- REVIEWS -->
+      <section id="reviews" class="section section--alt">
+        <div class="container">
+          <div class="head">
+            <h2 class="reveal">Отзывы гостей</h2>
+            <p class="reveal">
+              Люди приезжают за тишиной, качеством и ощущением “всё сделано
+              правильно”.
+            </p>
+          </div>
+
+          <div class="reviews">
+            <article class="review card reveal">
+              <div class="review__top">
+                <b>Анна</b><span class="muted">• октябрь 2025</span>
+              </div>
+              <p>
+                Чан под звёздами — лучший вечер за долгое время. Супер чисто,
+                много деталей, которые реально создают атмосферу.
+              </p>
+              <div class="stars" aria-label="Рейтинг 5 из 5">★★★★★</div>
+            </article>
+
+            <article class="review card reveal">
+              <div class="review__top">
+                <b>Дмитрий</b><span class="muted">• июль 2025</span>
+              </div>
+              <p>
+                Стиль, тишина и комфорт на уровне дорогого отеля. Отличная кухня
+                и очень быстрый Wi-Fi — поработал и отдохнул.
+              </p>
+              <div class="stars" aria-label="Рейтинг 5 из 5">★★★★★</div>
+            </article>
+
+            <article class="review card reveal">
+              <div class="review__top">
+                <b>Марина</b><span class="muted">• декабрь 2024</span>
+              </div>
+              <p>
+                Всё было идеально: тепло, уютно, камин и мягкий свет. Мы
+                вернёмся снова — очень “вкусное” место.
+              </p>
+              <div class="stars" aria-label="Рейтинг 5 из 5">★★★★★</div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- TERMS / CONDITIONS -->
+      <section class="section" id="terms">
+        <div class="container">
+          <div class="head">
+            <h2 class="reveal">Условия проживания</h2>
+            <p class="reveal">
+              Коротко и честно — чтобы вы понимали правила заранее.
+            </p>
+          </div>
+
+          <div class="termsGrid">
+            <article class="card reveal">
+              <div class="icon">🕒</div>
+              <h3>Заезд / выезд</h3>
+              <p>
+                Заезд с <b>15:00</b>, выезд до <b>12:00</b>. Ранний заезд и
+                поздний выезд — по возможности (уточняйте в заявке).
+              </p>
+            </article>
+
+            <article class="card reveal">
+              <div class="icon">💳</div>
+              <h3>Предоплата</h3>
+              <p>
+                Предоплата <b>30%</b> подтверждает бронь. Остаток — в день
+                заезда (нал/перевод — детали в подтверждении).
+              </p>
+            </article>
+
+            <article class="card reveal">
+              <div class="icon">🧾</div>
+              <h3>Отмена</h3>
+              <p>
+                Бесплатная отмена — за <b>7 дней</b> до заезда. Позже —
+                удерживается предоплата (если дату не удаётся перепродать).
+              </p>
+            </article>
+
+            <article class="card reveal">
+              <div class="icon">🔇</div>
+              <h3>Тихий режим</h3>
+              <p>
+                После <b>22:00</b> просим соблюдать тишину. Это лесной ретрит,
+                не площадка для громких вечеринок.
+              </p>
+            </article>
+
+            <article class="card reveal">
+              <div class="icon">🐾</div>
+              <h3>Питомцы</h3>
+              <p>
+                Небольшие питомцы допускаются по согласованию. Укажите в заявке
+                породу/вес — мы подтвердим условия.
+              </p>
+            </article>
+
+            <article class="card reveal">
+              <div class="icon">🔥</div>
+              <h3>Безопасность</h3>
+              <p>
+                Камин/баня/чан — только с соблюдением инструкций на месте. Это
+                важно для вашей безопасности.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section id="faq" class="section section--alt">
+        <div class="container narrow">
+          <div class="head head--stack">
+            <h2 class="reveal">Частые вопросы</h2>
+            <p class="reveal">
+              Если не нашли ответ — напишите нам в контактах, поможем быстро.
+            </p>
+          </div>
+
+          <div class="faq">
+            <details class="faqItem reveal">
+              <summary>Можно ли с животными?</summary>
+              <p>
+                Да, небольшие питомцы — по предварительному согласованию.
+                Пожалуйста, укажите это в заявке (порода/вес).
+              </p>
+            </details>
+
+            <details class="faqItem reveal">
+              <summary>Есть ли Wi-Fi и подходит ли для работы?</summary>
+              <p>
+                Да. Стабильный интернет 100+ Мбит, удобное место для ноутбука.
+                Для долгих заездов действует скидка Workation.
+              </p>
+            </details>
+
+            <details class="faqItem reveal">
+              <summary>Как работает предоплата и отмена?</summary>
+              <p>
+                Предоплата 30% подтверждает бронь. Бесплатная отмена — за 7 дней
+                до заезда. Подробности — в разделе «Условия проживания».
+              </p>
+            </details>
+
+            <details class="faqItem reveal">
+              <summary>Во сколько заезд и выезд?</summary>
+              <p>
+                Заезд с 15:00, выезд до 12:00. Ранний заезд/поздний выезд — по
+                возможности (зависит от графика уборки).
+              </p>
+            </details>
+
+            <details class="faqItem reveal">
+              <summary>Что входит в базовую цену?</summary>
+              <p>
+                Проживание, кухня, камин (дрова/розжиг), парковка, Wi-Fi. Чан и
+                баня — опции, добавляются в калькуляторе.
+              </p>
+            </details>
+          </div>
+
+          <div class="faqCta reveal">
+            <a class="btn btn--primary magnetic" href="#booking"
+              >Проверить даты</a
+            >
+            <a class="btn btn--ghost magnetic" href="#contacts"
+              >Задать вопрос</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACTS -->
+      <section id="contacts" class="section">
+        <div class="container">
+          <div class="head">
+            <h2 class="reveal">Контакты</h2>
+            <p class="reveal">
+              Мы на связи ежедневно. Для приватности точную геолокацию
+              отправляем после подтверждения брони.
+            </p>
+          </div>
+
+          <div class="contacts">
+            <div class="card reveal">
+              <div class="icon">📞</div>
+              <h3>Телефон</h3>
+              <p>
+                <a class="link" href="tel:+373000000000">+373 000 000 000</a>
+                <br />
+                <span class="muted">10:00–20:00</span>
+              </p>
+            </div>
+
+            <div class="card reveal">
+              <div class="icon">✉️</div>
+              <h3>Email</h3>
+              <p>
+                <a class="link" href="mailto:hello@nordwoods.example"
+                  >hello@nordwoods.example</a
+                >
+                <br />
+                <span class="muted">ответим в течение дня</span>
+              </p>
+            </div>
+
+            <div class="card reveal">
+              <div class="icon">💬</div>
+              <h3>Мессенджеры</h3>
+              <p>
+                <a class="link" href="#booking">удобнее через заявку</a>
+                <br />
+                <span class="muted">все детали брони сохраняются</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="finalCta reveal">
+            <div class="finalCta__inner">
+              <div>
+                <h3>Готовы на лучший уикенд месяца?</h3>
+                <p class="muted">
+                  Выберите даты — калькулятор посчитает цену, мы подтвердим
+                  бронь и отправим реквизиты предоплаты.
+                </p>
+              </div>
+              <a class="btn btn--primary magnetic" href="#booking"
+                >Забронировать</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="container footer__inner">
+          <div>
+            <div class="brand brand--mini">
+              <div class="brand__mark brand__mark--mini"><span>⛰️</span></div>
+              <div class="brand__title">NordWoods</div>
+            </div>
+            <p class="fine">
+              NordWoods Cabin Retreat • Камин • Чан • Баня • Wi-Fi • Парковка
+              <br />
+              <span class="muted"
+                >© <span id="year"></span> • Все права защищены</span
+              >
+            </p>
+          </div>
+
+          <div class="fine">
+            <span class="muted">Связаться:</span>
+            <a class="link" href="tel:+373000000000">+373 000 000 000</a>
+            <span class="dot">•</span>
+            <a class="link" href="mailto:hello@nordwoods.example"
+              >hello@nordwoods.example</a
+            >
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <!-- Modal -->
+    <div
+      class="modal"
+      id="modal"
+      aria-hidden="true"
+      role="dialog"
+      aria-label="Подтверждение"
+    >
+      <div class="modal__bg" data-close="1"></div>
+      <div class="modal__panel" role="document">
+        <div class="modal__head">
+          <div class="modal__title" id="modalTitle">Заявка принята ✅</div>
+          <button class="xbtn" data-close="1" aria-label="Закрыть">✕</button>
+        </div>
+
+        <div class="modal__text" id="modalText">
+          Мы получили вашу заявку. Подтверждение и реквизиты предоплаты пришлём
+          в течение дня.
+        </div>
+
+        <div class="modalActions">
+          <button class="btn btn--ghost btn--full magnetic" id="copyDetails">
+            Скопировать детали заявки
+          </button>
+          <button class="btn btn--ghost btn--full magnetic" id="downloadIcs">
+            Скачать подтверждение (.ics)
+          </button>
+          <button class="btn btn--primary btn--full magnetic" data-close="1">
+            Ок
+          </button>
+        </div>
+
+        <p class="note">
+          Совет: добавьте событие в календарь (файл .ics), чтобы не забыть даты.
+        </p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
