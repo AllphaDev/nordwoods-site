@@ -68,8 +68,9 @@ code {
   color: rgba(255, 255, 255, 0.76);
 }
 
-.container {
-  width: min(var(--max), calc(100% - 48px));
+.container{
+width:min(var(--max),calc(100% - 48px));
+margin-inline:auto;
 }
 
 /* noise */
