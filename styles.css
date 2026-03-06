@@ -69,9 +69,8 @@ code {
 }
 
 .container {
-  width: min(var(--container), calc(100% - 44px));
+  width: min(1360px, 94%);
   margin: 0 auto;
-}
 
 /* noise */
 .noise {
